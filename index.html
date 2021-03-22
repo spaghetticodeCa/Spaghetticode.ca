@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaghettiCode.ca</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">        
+    <!-- google fonts -->
+
+</head>
+<body class="main">
+    <header class="header">
+        <nav class="navBar">
+            <div class="navBar__wrap navBar__wrap--brand">
+                <img class="navBar__LogoImg" src="images/logo/SpaghettiCodeLogo.svg" alt="">
+                <p class="navBar__txt navBar__txt--spag">Spaghetti<span class="navBar__txt navBar__txt--code">Code</span></p>
+            </div>
+            <ul>
+                <li>
+                    <a href="">Sevices</a>
+                </li>
+                <li>
+                    <a href="">Technologies</a>
+                </li>
+                <li>
+                    <a href="">Réalisations</a>
+                </li>
+                <li>
+                    <a href="">Nous Joindre</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <img src="" alt="">
+                    f
+                </li>
+                <li>
+                    <img src="" alt="">
+                    e
+                </li>
+                <li>
+                    <img src="" alt="">
+                    l
+                </li>
+            </ul>
+        </nav>
+        <div class="header__wrap">
+            <h1>Le sous traitant web qui vous évite de tomber dans le Spaghetti Code</h1>
+        </div>
+        <div class="header__wrap">
+
+        </div>
+    </header>
+    <section class="content">
+
+    </section>
+    <footer class="footer">
+
+    </footer>
+</body>
+</html>
+
+<style>
+
+:root{
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 75vh 10rem 100vh;
+}
+
+.header{
+    background: rgb(38,38,38);
+    background: radial-gradient(at 45% 0%, rgba(38,38,38,1) 1%, rgba(15,15,15,1) 33%);
+    background-size: 250% 300%;
+    border-radius: 0 0 6rem 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 6rem auto;
+    grid-template-areas:
+    "navBar navBar"
+    "headerText headerImg"
+    ;
+
+}
+
+.header__wrap:nth-child(1){
+    background-color: cornflowerblue;
+
+}
+
+.header__wrap:nth-child(2){
+    background-color: cyan;
+}
+    
+.navBar{
+    grid-area: navBar;
+    border: solid red 1px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navBar__LogoImg{
+    width: auto;
+    height: 3.5rem;
+}
+
+.navBar__wrap{
+    display: flex;
+}
+
+.navBar__wrap--brand{
+    align-items: center;
+}
+
+.navBar__txt{
+    font-size: 2rem;
+    font-family: courgette, cursive;
+}
+
+.navBar__txt--spag{
+    color: #fff;
+}
+
+.navBar__txt--code{
+    color: red;
+}
+
+.content{
+    background-color: blueviolet;
+}
+
+.footer{
+    background-color: coral;
+}
+
+</style>
